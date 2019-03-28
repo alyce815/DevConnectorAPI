@@ -1,0 +1,20 @@
+{
+  "name": "devconnectorapi",
+  "version": "0.1.0",
+  "description": "This node sever is for the Devconnector API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyce815/DevConnectorAPI.git"
+  },
+  "author": "AWatkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alyce815/DevConnectorAPI/issues"
+  },
+  "homepage": "https://github.com/alyce815/DevConnectorAPI#readme"
+}
