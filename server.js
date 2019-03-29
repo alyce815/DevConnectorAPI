@@ -42,7 +42,7 @@ router.route('/issues').get((req, res) => {
             res.json(issues);
     });
 });
-// I think this module finds the issues by the id numbers
+// I think this module finds the issues by the id numbers.
 router.route('/issues/:id').get((req, res) => {
     Issue.findById(req.params.id, (err, issue) => {
         if (err)
