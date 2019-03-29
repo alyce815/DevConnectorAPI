@@ -73,7 +73,7 @@ router.route('/issues/update/:id').post((req, res) => {
         }
     });
 });
-// This module deletes issues by id number.  The App is listening in port 4000. 
+// This module deletes issues by id number. The App is listening in port 4000. 
 router.route('/issues/delete/:id').get((req, res) => {
     Issue.findByIdAndRemove({_id: req.params.id}, (err, issue) => {
         if (err)
