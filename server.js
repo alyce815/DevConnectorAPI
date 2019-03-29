@@ -53,7 +53,7 @@ router.route('/issues/:id').get((req, res) => {
 });
 // I think this module updates the issue by id number and then displays the issue title 
 // the entity responsible for the issue a description of the isssue, the deerity of the issue and 
-// the status of the issue. It saves the data and the update is complete
+// the status of the issue. It saves the data and the update is complete. 
 router.route('/issues/update/:id').post((req, res) => {
     Issue.findById(req.params.id, (err, issue) => {
         if (!issue)
