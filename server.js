@@ -33,7 +33,7 @@ router.route('/issues/add').post((req, res) => {
             res.status(400).send('Failed to create new record');
         });
 });
-// I think this module finds the issues or displays an error
+// I think this module finds the issues or displays an error.
 router.route('/issues').get((req, res) => {
     Issue.find((err, issues) => {
         if (err)
